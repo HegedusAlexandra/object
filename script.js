@@ -60,3 +60,9 @@ lecsos.details()
 
 const inyenc = new Pizza("ínyenc",2300);
 console.log(inyenc);
+
+let params = ["kolbász",1900]
+
+const kolbaszos = new Pizza(...params)
+console.log(kolbaszos);
+
